@@ -1,4 +1,5 @@
-import sys, os
+import os
+import sys
 
-print('hello')
-print('bye')
+print("hello")
+print("bye")
