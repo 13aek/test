@@ -1,1 +1,4 @@
-print(수정)
+import sys, os
+
+print('hello')
+print('bye')

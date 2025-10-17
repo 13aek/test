@@ -1,3 +1,3 @@
-print('hello')
-print('bye')
-print('hi')
+print("hello")
+print("bye")
+print("hi")
