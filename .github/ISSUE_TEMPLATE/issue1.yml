@@ -1,0 +1,25 @@
+name: "✨issue 1"
+description: "새로운 기능 추가나 개선 제안을 등록하세요."
+labels: ["feature", "discussion"]
+body:
+  - type: markdown
+    attributes:
+      value: "## 📝 기능 제안서 양식"
+  - type: input
+    id: title
+    attributes:
+      label: "요약 제목"
+      placeholder: "예: 로그인 페이지 개선"
+  - type: textarea
+    id: description
+    attributes:
+      label: "상세 내용"
+      placeholder: "무엇을, 왜, 어떻게 개선하고 싶은지 구체적으로 적어주세요."
+  - type: dropdown
+    id: priority
+    attributes:
+      label: "우선순위"
+      options:
+        - 낮음
+        - 보통
+        - 높음
